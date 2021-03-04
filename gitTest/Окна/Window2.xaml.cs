@@ -15,20 +15,21 @@ using System.Windows.Shapes;
 namespace gitTest
 {
     /// <summary>
-    /// Логика взаимодействия для Window1.xaml
+    /// Логика взаимодействия для Window2.xaml
     /// </summary>
-    public partial class Window1 : Window
+    public partial class Window2 : Window
     {
-        public Window1()
+        public Window2()
         {
             InitializeComponent();
         }
 
-        private void sfsdf_Click(object sender, RoutedEventArgs e)
+        private void fd_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("  FEA брадяги АУФ ");
-            Window2 tr = new Window2();
-            tr.Show();
+            Random t = new Random();
+            t.Next(2, 1300);
+            t.GetHashCode();
+            MessageBox.Show($" Хеш-код {t} ");
         }
     }
 }
