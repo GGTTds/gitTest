@@ -24,5 +24,11 @@ namespace gitTest
         {
             InitializeComponent();
         }
+
+        private void вава_Click(object sender, RoutedEventArgs e)
+        {
+            Window1 sdsd = new Window1();
+            sdsd.Show();
+        }
     }
 }

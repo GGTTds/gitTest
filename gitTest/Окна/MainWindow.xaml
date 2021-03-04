@@ -7,6 +7,6 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="вава" Content=" Перейти "  Width="100" Height="30"></Button>
+        <Button Click="вава_Click" x:Name="вава" Content=" Перейти "  Width="100" Height="30" HorizontalAlignment="Left" Margin="346,195,0,195"></Button>
     </Grid>
 </Window>
