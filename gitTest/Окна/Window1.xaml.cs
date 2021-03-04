@@ -23,5 +23,10 @@ namespace gitTest
         {
             InitializeComponent();
         }
+
+        private void sfsdf_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("  FEA брадяги АУФ ");
+        }
     }
 }
