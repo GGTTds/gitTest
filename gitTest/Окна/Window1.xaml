@@ -9,5 +9,6 @@
     <Grid>
         <Button Click="sfsdf_Click" x:Name="sfsdf" Content="dsfsf11" Width="100" Height="30" ></Button>
         <Label Name="sdfs" Content="Это окно один" Margin="336,22,270,340" FontSize="22" />
+        <CheckBox Content="идите нахуй " HorizontalAlignment="Left" Margin="346,260,0,0" VerticalAlignment="Top" Width="111"/>
     </Grid>
 </Window>
